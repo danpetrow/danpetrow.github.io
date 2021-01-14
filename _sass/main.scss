@@ -24,3 +24,21 @@ ul {
   padding: 0;
   overflow: hidden;
 }
+
+.main-head {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+/*
+.main-nav {
+  grid-area: nav;
+}
+*/
+.side {
+  grid-area: sidebar;
+}
+.main-footer {
+  grid-area: footer;
+}
