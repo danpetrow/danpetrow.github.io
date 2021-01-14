@@ -9,7 +9,7 @@ body {
 .current {
 color: green;
 }
-
+/*
 footer{
 position: fixed;
   left: 0;
@@ -17,7 +17,7 @@ position: fixed;
   width: $full-width;
   text-align: center;
 }
-
+*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -30,9 +30,9 @@ ul {
   gap: 20px;
   grid-template-areas:
     "header"
-    /*
+    
     "nav"
-    */
+    
     "content"
     "sidebar"
     "footer";
