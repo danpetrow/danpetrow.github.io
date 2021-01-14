@@ -62,7 +62,7 @@ ul {
       "header  header"
       "nav     nav"
       "sidebar content"
-      "ad      footer";
+      "footer      footer";
   }
   nav ul {
     display: flex;
@@ -75,8 +75,8 @@ ul {
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas:
       "header header  header"
-      "nav    content sidebar"
-      "nav    content ad"
+      "content    content sidebar"
+      "content    content sidebar"
       "footer footer  footer"
    }
    nav ul {
