@@ -1,10 +1,19 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
-
+$full-width: width:100%
+  
 body {
   font: 100% $font-stack;
   color: $primary-color;
 }
 .current {
 color: green;
+}
+
+footer{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: $full-width;
+  text-align: center;
 }
