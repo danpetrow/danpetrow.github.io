@@ -25,6 +25,18 @@ ul {
   overflow: hidden;
 }
 
+.wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "header"
+    */
+    "nav"
+    */
+    "content"
+    "sidebar"
+    "footer";
+}
 .main-head {
   grid-area: header;
 }
