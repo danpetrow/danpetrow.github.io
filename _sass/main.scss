@@ -1,7 +1,11 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 $full-width: 100%;
-  
+
+html {
+  height:100%
+}
+
 body {
   font: 100% $font-stack;
   color: $primary-color;
