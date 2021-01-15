@@ -1,5 +1,9 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
+$bg-color:#dadad9;
+$green-color: #60992d;
+$lt-blue-color:#0094c6;
+$dk-blue-color:#5a2fc6;
 $full-width: 100%;
 
 html {
@@ -8,10 +12,11 @@ html {
 
 body {
   font: 100% $font-stack;
-  color: $primary-color;
+  background-color: $bg-color;
+  text-color: $primary-color;
 }
 .current {
-color: green;
+color: $green-color;
 }
 /*
 footer{
