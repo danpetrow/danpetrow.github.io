@@ -2,7 +2,10 @@
 layout: default
 title: Dan Petrow, Sometimes Software Engineer
 ---
+<aside class="side">
 <h1>{{ page.title }}</h1>
+</aside>
+<div class="content">
 <h2>Latest Posts</h2>
 <ul>
   {% for post in site.posts %}
@@ -12,3 +15,4 @@ title: Dan Petrow, Sometimes Software Engineer
     </li>
   {% endfor %}
 </ul>
+</div>
