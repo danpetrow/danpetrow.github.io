@@ -91,8 +91,8 @@ a.current {
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas:
       "header header  header"
-      "content    content sidebar"
-      "content    content sidebar"
+      "content content sidebar"
+      "content content sidebar"
       "footer footer  footer"
    }
    nav ul {
