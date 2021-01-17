@@ -8,7 +8,7 @@ a, a:visited { text-decoration: none; color: #5a2fc6; background-color: #dadad9;
 
 a.current { color: #60992d; text-decoration: none; }
 
-.wrapper { height: 100%; display: grid; gap: 20px; grid-template-areas: "header" "sidebar" "content" "footer"; }
+.wrapper { height: 100%; grid-template-rows: auto 1fr auto; display: grid; gap: 20px; grid-template-areas: "header" "content" "footer"; }
 
 .main-head { grid-area: header; }
 
@@ -20,8 +20,8 @@ a.current { color: #60992d; text-decoration: none; }
 
 .main-footer { grid-area: footer; }
 
-@media (min-width: 500px) { .wrapper { grid-template-columns: 2fr 2fr; grid-template-areas: "header  header" "sidebar sidebar" "content content" "footer      footer"; } nav ul { display: flex; justify-content: space-between; } }
+@media (min-width: 500px) { .wrapper { grid-template-rows: auto 1fr auto; grid-template-columns: 1fr 1fr 1fr; grid-template-areas: "header  header" "sidebar content" "footer footer"; } nav ul { display: flex; justify-content: space-between; } }
 
-@media (min-width: 700px) { .wrapper { grid-template-columns: 1fr 4fr 1fr; grid-template-areas: "header header  header" "content    content sidebar" "content    content sidebar" "footer footer  footer"; } nav ul { flex-direction: column; } }
+@media (min-width: 700px) { .wrapper { grid-template-rows: auto 1fr auto; grid-template-columns: 1fr 4fr 1fr; grid-template-areas: "header header header" "sidebar content" "footer footer footer"; } nav ul { flex-direction: column; } }
 
 /*# sourceMappingURL=styles.css.map */
