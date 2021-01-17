@@ -6,13 +6,11 @@ $lt-blue-color:#0094c6;
 $dk-blue-color:#5a2fc6;
 
 html {
-  height:100%;
-  width: 100%;
+  height:100%
 }
 
 body {
   height:100%;
-  width:100%;
   font: 100% $font-stack;
   background-color: white;
   color: $primary-color;
@@ -20,6 +18,9 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 a, a:visited{
@@ -39,9 +40,6 @@ a.current {
   height:100%;
   grid-template-rows:auto 1fr 1fr auto;
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows:auto 1fr auto;
-  height:100%;
   gap: 20px;
   grid-template-areas:
     "header"
@@ -56,6 +54,7 @@ a.current {
 
 .content {
   grid-area: content;
+  text-align: center;
 }
 
 .main-nav {
@@ -72,24 +71,31 @@ a.current {
 
 @media (min-width: 500px) {
   .wrapper {
-    grid-template-columns: 100%;
-    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-rows:auto 1fr 1fr auto;
+    grid-template-columns: 2fr 2fr;
     grid-template-areas:
-      "header"
-      "sidebar"
-      "content"
-      "footer";
+      "header  header"
+      "sidebar sidebar"
+      "content content"
+      "footer      footer";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 700px) {
   .wrapper {
-    grid-template-columns: 1fr 2fr;
     grid-template-rows:auto 1fr 1fr auto;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas:
-      "header  header"
-      "sidebar content"
-      "sidebar content"
-      "footer  footer"
+      "header header  header"
+      "content content sidebar"
+      "content content sidebar"
+      "footer footer  footer"
+   }
+   nav ul {
+     flex-direction: column;
    }
 }
