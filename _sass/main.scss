@@ -38,6 +38,7 @@ a.current {
 
 .wrapper {
   height:100%;
+  grid-template-rows:auto 1fr 1fr auto;
   display: grid;
   gap: 20px;
   grid-template-areas:
@@ -70,6 +71,7 @@ a.current {
 
 @media (min-width: 500px) {
   .wrapper {
+    grid-template-rows:auto 1fr 1fr auto;
     grid-template-columns: 2fr 2fr;
     grid-template-areas:
       "header  header"
@@ -85,6 +87,7 @@ a.current {
 
 @media (min-width: 700px) {
   .wrapper {
+    grid-template-rows:auto 1fr 1fr auto;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas:
       "header header  header"
