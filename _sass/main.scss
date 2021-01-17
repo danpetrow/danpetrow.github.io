@@ -36,6 +36,8 @@ a.current {
   }
 
 .wrapper {
+  height:100%;
+  grid-template-rows:auto 1fr 1fr auto;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows:auto 1fr auto;
