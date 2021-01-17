@@ -4,18 +4,29 @@ $bg-color:#dadad9;
 $green-color: #60992d;
 $lt-blue-color:#0094c6;
 $dk-blue-color:#5a2fc6;
+$full-width: 100%;
 
 html {
   height:100%
 }
 
 body {
-  height:100%;
   font: 100% $font-stack;
-  background-color: white;
-  color: $primary-color;
+  background-color: $bg-color;
+  text-color: $primary-color;
 }
-
+.current {
+color: $green-color;
+}
+/*
+footer{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: $full-width;
+  text-align: center;
+}
+*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -23,38 +34,28 @@ ul {
   overflow: hidden;
 }
 
-a, a:visited{
-  text-decoration: none;
-  color: $dk-blue-color;
-  background-color: $bg-color;
-  border: 2px solid $bg-color;
-  border-radius: 5px;
-}
-
-a.current {
-  color: $green-color;
-  text-decoration: none;
-  }
-
 .wrapper {
+<<<<<<< HEAD
   height:100%;
   grid-template-rows:auto 1fr 1fr auto;
+=======
+>>>>>>> parent of 352aa88... many sass changes
   display: grid;
   gap: 20px;
   grid-template-areas:
     "header"
-    "sidebar"
+    
+    "nav"
+    
     "content"
+    "sidebar"
     "footer";
 }
-
 .main-head {
   grid-area: header;
 }
-
 .content {
   grid-area: content;
-  text-align: center;
 }
 
 .main-nav {
@@ -64,19 +65,22 @@ a.current {
 .side {
   grid-area: sidebar;
 }
-
 .main-footer {
   grid-area: footer;
 }
 
 @media (min-width: 500px) {
   .wrapper {
+<<<<<<< HEAD
     grid-template-rows:auto 1fr 1fr auto;
     grid-template-columns: 2fr 2fr;
+=======
+    grid-template-columns: 1fr 3fr;
+>>>>>>> parent of 352aa88... many sass changes
     grid-template-areas:
       "header  header"
-      "sidebar sidebar"
-      "content content"
+      "nav     nav"
+      "sidebar content"
       "footer      footer";
   }
   nav ul {
