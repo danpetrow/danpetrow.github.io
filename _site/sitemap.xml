@@ -3,6 +3,7 @@
 <url>
 <loc>/authors/captain.html</loc>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <lastmod>2021-01-16T22:06:24-05:00</lastmod>
 </url>
 <url>
@@ -15,6 +16,13 @@
 <loc>/authors/dan.html</loc>
 <lastmod>2021-01-13T00:43:44-05:00</lastmod>
 >>>>>>> parent of 352aa88... many sass changes
+=======
+<lastmod>2021-01-17T00:19:52-05:00</lastmod>
+</url>
+<url>
+<loc>/authors/dan.html</loc>
+<lastmod>2021-01-17T00:19:52-05:00</lastmod>
+>>>>>>> 119950491a002614535aed7189c1c0be7bc2d7ab
 </url>
 <url>
 <loc>/2021/01/12/git.html</loc>

@@ -1,3 +1,31 @@
+<<<<<<< HEAD
 .current { color: green; }
+=======
+html { height: 100%; }
+
+body { height: 100%; font: 100% Helvetica, sans-serif; background-color: white; color: #333; }
+
+ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; }
+
+a, a:visited { text-decoration: none; color: #5a2fc6; background-color: #dadad9; border: 2px solid #dadad9; border-radius: 5px; }
+
+a.current { color: #60992d; text-decoration: none; }
+
+.wrapper { height: 100%; grid-template-rows: auto 1fr auto; display: grid; gap: 20px; grid-template-areas: "header" "content" "footer"; }
+
+.main-head { grid-area: header; }
+
+.content { grid-area: content; text-align: center; }
+
+.main-nav { grid-area: nav; }
+
+.side { grid-area: sidebar; }
+
+.main-footer { grid-area: footer; }
+
+@media (min-width: 500px) { .wrapper { grid-template-rows: auto 1fr auto; grid-template-columns: 1fr 1fr 1fr; grid-template-areas: "header  header" "sidebar content" "footer footer"; } nav ul { display: flex; justify-content: space-between; } }
+
+@media (min-width: 700px) { .wrapper { grid-template-rows: auto 1fr auto; grid-template-columns: 1fr 4fr 1fr; grid-template-areas: "header header header" "sidebar content" "footer footer footer"; } nav ul { flex-direction: column; } }
+>>>>>>> 119950491a002614535aed7189c1c0be7bc2d7ab
 
 /*# sourceMappingURL=styles.css.map */
