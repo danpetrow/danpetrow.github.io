@@ -34,22 +34,14 @@ ul {
 }
 
 .wrapper {
-<<<<<<< HEAD
-=======
   height:100%;
   grid-template-rows:auto 1fr auto;
->>>>>>> 119950491a002614535aed7189c1c0be7bc2d7ab
   display: grid;
   gap: 20px;
   grid-template-areas:
-    "header"
-<<<<<<< HEAD
-    
+    "header" 
     "nav"
-    
-=======
->>>>>>> 119950491a002614535aed7189c1c0be7bc2d7ab
-    "content"
+     "content"
     "sidebar"
     "footer";
 }
@@ -73,22 +65,18 @@ ul {
 
 @media (min-width: 500px) {
   .wrapper {
-<<<<<<< HEAD
     grid-template-columns: 1fr 3fr;
     grid-template-areas:
       "header  header"
       "nav     nav"
       "sidebar content"
       "footer      footer";
-=======
     grid-template-rows:auto 1fr auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "header  header"
       "sidebar content"
-      "footer footer"
->>>>>>> 119950491a002614535aed7189c1c0be7bc2d7ab
-  }
+      "footer footer"  }
   nav ul {
     display: flex;
     justify-content: space-between;
