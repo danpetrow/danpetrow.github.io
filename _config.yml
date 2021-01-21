@@ -5,7 +5,7 @@ collections:
     output: true
 
 defaults:
-- scope:
+  - scope:
       path: ""
       type: "priorities"
     values:
