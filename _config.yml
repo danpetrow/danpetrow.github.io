@@ -1,8 +1,15 @@
 collections:
   authors:
     output: true
+  priorities:
+    output: true
 
 defaults:
+- scope:
+      path: ""
+      type: "priorities"
+    values:
+      layout: "priority"
   - scope:
       path: ""
       type: "authors"

@@ -1,0 +1,6 @@
+---
+---
+{% for priority in site.priorities %}
+  <h2>{{priority.title}} - {{ priority.importance }} - {{ priority.urgency }}</h2>
+  <p>{{ priority.content | markdownify }}</p>
+{% endfor %}
