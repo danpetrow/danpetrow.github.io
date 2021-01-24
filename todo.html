@@ -1,0 +1,48 @@
+---
+layout: priority
+---
+<div class="quadrants">
+<div class="quad1">
+    {% for priority in site.priorities %}
+    {% if priority.importance >=5 and priority.urgency >=5 %}
+    <article>
+        <h2>{{priority.title}} - {{ priority.importance }} - {{ priority.urgency }}</h2>
+        {{ priority.content | markdownify }}
+    </article>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<div class="quad2">
+    {% for priority in site.priorities %}
+    {% if priority.importance <=0 and priority.urgency >=5 %}
+    <article>
+        <h2>{{priority.title}} - {{ priority.importance }} - {{ priority.urgency }}</h2>
+        {{ priority.content | markdownify }}
+    </article>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<div class="quad3">
+    {% for priority in site.priorities %}
+    {% if priority.importance >=5 and priority.urgency <=0 %}
+    <article>
+        <h2>{{priority.title}} - {{ priority.importance }} - {{ priority.urgency }}</h2>
+        {{ priority.content | markdownify }}
+    </article>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<div class="quad4">
+    {% for priority in site.priorities %}
+    {% if priority.importance <=0 and priority.urgency <=0 %}
+    <article>
+        <h2>{{priority.title}} - {{ priority.importance }} - {{ priority.urgency }}</h2>
+        {{ priority.content | markdownify }}
+    </article>
+    {% endif %}
+    {% endfor %}
+</div>
+</div>
