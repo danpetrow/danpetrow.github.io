@@ -1,7 +1,6 @@
 ---
 layout: priority
 ---
-<div class="quadrants">
 <div class="quad1">
     {% for priority in site.priorities %}
     {% if priority.importance >=5 and priority.urgency >=5 %}
@@ -44,5 +43,4 @@ layout: priority
     </article>
     {% endif %}
     {% endfor %}
-</div>
 </div>

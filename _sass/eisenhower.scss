@@ -38,13 +38,15 @@ a.current {
 
 .wrapper {
   height:100%;
-  grid-template-rows:auto 1fr auto;
+  grid-template-rows:auto 1fr 1fr auto;
+  grid-template-columns:1fr 1fr;
   display: grid;
   gap: 20px;
   grid-template-areas:
-    "header"
-    "content"
-    "footer";
+    "header header"
+    "quad1 quad2"
+    "quad3 quad4"
+    "footer footer";
 }
 
 .main-head {
@@ -54,6 +56,30 @@ a.current {
 .content {
   grid-area: content;
   text-align: center;
+}
+
+.quad1 {
+    grid-area: quad1;
+    border: 2px solid $bg-color;
+    border-radius: 5px;
+}
+
+.quad2 {
+    grid-area: quad2;
+    border: 2px solid $bg-color;
+    border-radius: 5px;
+}
+
+.quad3 {
+    grid-area: quad3;
+    border: 2px solid $bg-color;
+    border-radius: 5px;
+}
+
+.quad4 {
+    grid-area: quad4;
+    border: 2px solid $bg-color;
+    border-radius: 5px;
 }
 
 .main-nav {
@@ -70,11 +96,12 @@ a.current {
 
 @media (min-width: 500px) {
   .wrapper {
-    grid-template-rows:auto 1fr auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "header  header"
-      "sidebar content"
+      "quad1 quad2"
+      "quad3 quad4"
       "footer footer"
   }
   nav ul {
@@ -85,12 +112,13 @@ a.current {
 
 @media (min-width: 700px) {
   .wrapper {
-    grid-template-rows:auto 1fr auto;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows:auto 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "header header header"
-      "sidebar content"
-      "footer footer footer"
+      "header header"
+      "quad1 quad2"
+      "quad3 quad4"
+      "footer footer"
    }
    nav ul {
      flex-direction: column;
