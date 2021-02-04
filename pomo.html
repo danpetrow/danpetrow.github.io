@@ -1,0 +1,17 @@
+---
+layout: default
+title: Dan Petrow's Website
+---
+<ul>
+    {% for entry in site.data.pomo.logs %}
+      <li>
+        {{entry.Date}}
+      </li>
+      <li>
+          {{entry.Activity}}
+      </li>
+      <li>
+          {{entry.Duration}}
+      </li>
+    {% endfor %}
+    </ul>
