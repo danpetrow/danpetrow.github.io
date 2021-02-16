@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    {% seo %}
+    {% feed_meta %}
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <!-- Google Tag Manager -->
       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -12,8 +13,6 @@
       })(window,document,'script','dataLayer','GTM-W6KQX5L');</script>
     <!-- End Google Tag Manager -->
 		<link rel="stylesheet" href="/assets/css/styles.css">
-		{% feed_meta %}
-    {% seo %}
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>

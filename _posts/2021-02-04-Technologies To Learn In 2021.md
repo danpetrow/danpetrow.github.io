@@ -1,6 +1,7 @@
 ---
 layout: post
 author: dan
+permalink: /:title/
 ---
 Here in the beginning of 2021 I would like to set some goals regarding the technologies that I would like to learn about this year. At the end of the year I can reflect on what I learned from this list, how I have used it, how I can continue using these things, and what I liked and didn't like about each item.
 
