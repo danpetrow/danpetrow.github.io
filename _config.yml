@@ -25,6 +25,13 @@ defaults:
     values:
       layout: "default"
 
+social:
+  name: Dan Petrow
+  links:
+    - https://twitter.com/danpetrow
+    - https://www.linkedin.com/in/danpetrow
+    - https://github.com/danpetrow
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

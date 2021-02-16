@@ -1,6 +1,7 @@
 ---
 layout: post
 author: dan
+permalink: /:title/
 ---
 I very much like predictions. I know that there can be value in a successful prediction. Understanding that there is potentially value to a correct predict might explain why I abosultely love when a prediction of mine comes true. It hardly even matters if there is real value to the prediction being made, the reward of being right is great enough sometimes. 
 
