@@ -1,8 +1,32 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-06T17:00:07-05:00</updated><id>/feed.xml</id><entry><title type="html">Technologies to learn in 2021</title><link href="/2021/02/04/Technologies-To-Learn-In-2021.html" rel="alternate" type="text/html" title="Technologies to learn in 2021" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>/2021/02/04/Technologies%20To%20Learn%20In%202021</id><content type="html" xml:base="/2021/02/04/Technologies-To-Learn-In-2021.html">&lt;p&gt;Here in the beginning of 2021 I would like to set some goals regarding the technologies that I would like to learn about this year. At the end of the year I can reflect on what I learned from this list, how I have used it, how I can continue using these things, and what I liked and didn’t like about each item.&lt;/p&gt;
-=======
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-16T14:33:17-05:00</updated><id>/feed.xml</id><entry><title type="html">Technologies to learn in 2021</title><link href="/Technologies-To-Learn-In-2021/" rel="alternate" type="text/html" title="Technologies to learn in 2021" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>/Technologies%20To%20Learn%20In%202021</id><content type="html" xml:base="/Technologies-To-Learn-In-2021/">&lt;p&gt;Here in the beginning of 2021 I would like to set some goals regarding the technologies that I would like to learn about this year. At the end of the year I can reflect on what I learned from this list, how I have used it, how I can continue using these things, and what I liked and didn’t like about each item.&lt;/p&gt;
->>>>>>> b73943477360beeef44d23c8a89bf25804d16bf3
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-17T08:06:52-05:00</updated><id>/feed.xml</id><entry><title type="html">Ruby</title><link href="/Ruby/" rel="alternate" type="text/html" title="Ruby" /><published>2021-02-17T00:00:00-05:00</published><updated>2021-02-17T00:00:00-05:00</updated><id>/Ruby</id><content type="html" xml:base="/Ruby/">&lt;p&gt;Yesterday I sent about four hours trying to figure out why Jekyll wouldn’t run. Here is what I learned for next time.&lt;/p&gt;
+
+&lt;p&gt;Ruby -v
+You can uninstall the whole Ruby language but files are left behind really.
+bundle update
+You can delete your gemfile and gemfile.lock if you accidentally run this and get in a bad state.
+gem uninstall -a
+This will uninstall all of the gems currently installed.&lt;/p&gt;
+
+&lt;p&gt;Once you are free from your previous errors and are running fresh you can jump to here.&lt;/p&gt;
+
+&lt;p&gt;bundle init 
+Creates a new gemfile in the working directory.
+bundle add jekyll
+Creates your gemfile.lock with most of your dependencies(the gems you need to install)
+bundle install
+install the gems you need
+group :jekyll_plugins do
+  gem ‘jekyll-sitemap’
+  gem ‘jekyll-feed’
+  gem ‘jekyll-seo-tag’
+end
+Add you plugins to gemfile
+gem “webrick”
+Add webrick to your gemfile&lt;/p&gt;
+
+&lt;p&gt;You should be good to go after this.&lt;/p&gt;
+
+&lt;p&gt;Don’t mess with bundle update if things are working maybe?&lt;/p&gt;</content><author><name>dan</name></author><summary type="html">Yesterday I sent about four hours trying to figure out why Jekyll wouldn’t run. Here is what I learned for next time.</summary></entry><entry><title type="html">Technologies to learn in 2021</title><link href="/Technologies-To-Learn-In-2021/" rel="alternate" type="text/html" title="Technologies to learn in 2021" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>/Technologies%20To%20Learn%20In%202021</id><content type="html" xml:base="/Technologies-To-Learn-In-2021/">&lt;p&gt;Here in the beginning of 2021 I would like to set some goals regarding the technologies that I would like to learn about this year. At the end of the year I can reflect on what I learned from this list, how I have used it, how I can continue using these things, and what I liked and didn’t like about each item.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;MongoDB&lt;/li&gt;
