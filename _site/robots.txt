@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://danpetrow.com/sitemap.xml

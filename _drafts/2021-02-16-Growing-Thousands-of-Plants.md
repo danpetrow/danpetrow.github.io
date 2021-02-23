@@ -22,8 +22,20 @@ Buckets.
 <h3>Schedule</h3>
 <h4>February</h4>
 Make soil.
+My Recipe;
+Two parts Coco Coir
+One Part Perlite or Vermiculite
+One Part Compost
+Combine and mix. Place in five gallon buckets. Heat water to a boil, add to buckets, seal with a lid. Viola, sterilized seed starting mix. 
+
+Add soil to seed flats.
+
+Start Peppers, Tomatoes, cool season crops, some flowers.
 <h4>March</h4>
+Start herbs and flowers.
+Pot up peppers, tomatoes, ect.
 <h4>April</h4>
+Start Sunflowers, pumpkin, winter squash, watermelon.
 <h4>May</h4>
 <h2>Transferring Seeds Outside</h2>
 
