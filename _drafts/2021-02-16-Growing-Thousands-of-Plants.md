@@ -35,8 +35,11 @@ Start Peppers, Tomatoes, cool season crops, some flowers.
 Start herbs and flowers.
 Pot up peppers, tomatoes, ect.
 <h4>April</h4>
-Start Sunflowers, pumpkin, winter squash, watermelon.
+Start Sunflowers, pumpkin, winter squash, watermelon, cucumber.
+Transfer hardy starts outside.
 <h4>May</h4>
+Start direct sowed plants.
+Transfer tender starts outside
 <h2>Transferring Seeds Outside</h2>
 
 <h3>Irrigation</h3>

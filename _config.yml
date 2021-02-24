@@ -1,4 +1,5 @@
 url: 'https://danpetrow.com'
+title: 'danpetrow.com'
 collections:
   authors:
     output: true
