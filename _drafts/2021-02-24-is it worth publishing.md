@@ -1,6 +1,11 @@
-I've written many things that looking back were low quality. Therefore I believe it is important to formalize the criteria for which I decide a post is worthy of being posted.
+---
+layout: post
+author: dan
+permalink: /:title/
+---
+I've written many things that looking back were low quality or didn't stand up over time. Therefore I believe it is important to formalize the criteria for which I decide a post is worthy of being posted.
 
-A blog post should either document a place and subject in time and be valuable when revisiting in the future or by someone esle or it should make a measurable claim about a subject that is testable or verifiable in the future.
+A blog post should either document a place and subject in time and be valuable when revisiting in the future or by someone else or it should make a measurable claim about a subject that is testable or verifiable in the future.
 
 For example, I feel good about what I'm currently writing regarding my gardening systems and strategies. This is a documentation of my past and present gardening strategies that will be valuable to look back on in the future. This post also asserts that i will start 4500 plants this season which is a verifiable claim about the future.
 
