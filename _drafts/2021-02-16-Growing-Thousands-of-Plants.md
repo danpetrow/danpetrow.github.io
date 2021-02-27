@@ -44,7 +44,9 @@ In my nine seed trays there are about 150 400 256 144 cells. That was three tray
 I started lettuce, peppers, tomatoes, chard, ground cherries, strawberries, african daisies, asparagus, spinach.
 I also started to stratify lavendar today.
 As of today I have started 950 seeds plus a few hundred lavendar seeds so lets just call the total seeds started at this point 1000.
-
+2021-02-25
+We started pear seeds in papers towels and sandwich bags. These seeds were put on the heating register and kept dark to germinate. 
+We also started stratifying gala apple seeds.
 <h4>March</h4>
 <h5>Plan</h5>
 Start herbs and flowers.
