@@ -47,6 +47,17 @@ As of today I have started 950 seeds plus a few hundred lavendar seeds so lets j
 2021-02-25
 We started pear seeds in papers towels and sandwich bags. These seeds were put on the heating register and kept dark to germinate. 
 We also started stratifying gala apple seeds.
+2021-02-27
+Today I noticed my lettuce, chard, and spinach had germinated. 
+
+Today I planted another thousand seeds bringing my total up to around 2000 plants. 
+We also did a tray of microgreens.
+I used up my 30 gallons of seed starting mix.
+Broccoli, cauliflower, peppers, onions, kale, cabbage, brussel sprouts, eggplants, tomatillos.
+2021-02-28
+I noticed an african daisy had germinated today.
+
+Also I started in an attempt to propogate two magnolia plants. I cut them at the beginning of the green new growth on the stem, dipped them in rooting powder, removed all leaves except the top most leaves and put them into my potting mix in a self wicking pot. 
 <h4>March</h4>
 <h5>Plan</h5>
 Start herbs and flowers.
