@@ -58,11 +58,21 @@ Broccoli, cauliflower, peppers, onions, kale, cabbage, brussel sprouts, eggplant
 I noticed an african daisy had germinated today.
 
 Also I started in an attempt to propogate two magnolia plants. I cut them at the beginning of the green new growth on the stem, dipped them in rooting powder, removed all leaves except the top most leaves and put them into my potting mix in a self wicking pot. 
+
 <h4>March</h4>
 <h5>Plan</h5>
 Start herbs and flowers.
 Pot up peppers, tomatoes, ect.
 <h5>Execution</h5>
+
+2021-03-11
+I have an issue with algeal growth and will need to test a method to fix that. I've read about using hydrogen peroxide to kill the algae which is what I will test. Since my last post onions, tomatoes, cabbage, brussel sprouts have germinated but I still haven't had any strawberries, asparagus, ground cherries, eggplant, tomatillos or peppers germinate.
+
+To improve my seed starting area I think that I would want to increase temperature, and improve air movement in the area.
+
+2021-03-15
+I have a problem with algae growing on my starts so I will be trialing a treating them with a 3% hydrogen peroxide solution. 
+Today I noticed some hot peppers had germinated. 
 <h4>April</h4>
 <h5>Plan</h5>
 Start Sunflowers, pumpkin, winter squash, watermelon, cucumber.

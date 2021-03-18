@@ -15,6 +15,7 @@ What I learned tonight is the importance of deleting local branches when you are
 <li>git branch - This lists our local branches and highlights our current branch.</li>
 <li>git branch -a - This lists all of our branches</li>
 <li>git branch status - This lists what branch we are on as well as any changes to commit.</li>
+<li>git reset --hard - discard local changes and restore yourself back to the last commit.
 </ul>
 
 Also keep a staging branch both locally and remotely that you only touch when you are sure that your commits won't break anything.

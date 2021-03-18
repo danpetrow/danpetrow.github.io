@@ -1,0 +1,1 @@
+Need to write a program that interacts with the api so that when I add a file to a directory it is compressed.
