@@ -12,6 +12,8 @@ a.current { color: #000000; text-decoration: none; border: 2px solid #000000; }
 
 p { margin: 0; }
 
+img { max-width: 100%; }
+
 #foot { align-items: end; justify-items: center; display: inline-block; }
 
 .wrapper { height: 100%; grid-template-rows: auto auto auto; display: grid; gap: 20px; grid-template-areas: "header" "content" "footer"; }

@@ -2,7 +2,7 @@ layout: post
 author: dan
 permalink: /:title/
 ---
-Wikidata gives you most of the power you could ever want to visual data but removes the hard work of building a database full of useful information. 
+Wikidata gives you most of the power you could ever want to visualize data but removes the hard work of building a structured database.
 
 The data in this database isn't completely clean so there can still be some work to do but it is a great starting point.
 
