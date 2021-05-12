@@ -3,7 +3,6 @@ layout: post
 author: dan
 permalink: /:title/
 ---
-# Build a Stock Data Visualizer Web App Using Alpha Vantage + Django
 
 In this tutorial we will build a simple web app to visualize stock data using Python (Django), Javascript, and the Alpha Vantage API. What we are going to visualize is Simple Moving Average, Daily Close, and Daily Adjusted Close for a given stock. 
 
