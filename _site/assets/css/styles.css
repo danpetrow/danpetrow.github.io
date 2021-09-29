@@ -32,4 +32,6 @@ img { max-width: 100%; }
 
 @media (min-width: 500px) { body { height: 100%; grid-template-rows: auto auto auto; grid-template-columns: 1fr 1fr 1fr; grid-template-areas: "header  header" "sidebar content" "footer footer"; } }
 
+.round { border-radius: 100%; max-width: 40%; max-height: 40%; }
+
 /*# sourceMappingURL=styles.css.map */
