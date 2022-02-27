@@ -49,7 +49,11 @@ a.current {
 #footerLinks{
   display:flex;
   justify-content:center;
-  //display: inline-block;
+}
+
+#footer {
+  grid-area: footer;
+  padding:2%;
 }
 
 //classes
@@ -84,16 +88,11 @@ a.current {
   max-height: 40%;
 }
 
-footer {
-  grid-area: footer;
-  padding:2%;
-}
-
 //Grid layouts
 .wrapper {
   min-height:100%;
   height:100%;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
   display: grid;
   grid-template-areas:
@@ -106,7 +105,7 @@ footer {
   .wrapper {
     min-height:100%;
     height:100%;
-    grid-template-rows:auto auto auto;
+    grid-template-rows:auto 1fr auto;
     grid-template-columns: 100%;
     grid-template-areas:
       "header header"
@@ -119,7 +118,7 @@ footer {
   .wrapper {
     min-height:100%;
     height:100%;
-    grid-template-rows:auto auto auto;
+    grid-template-rows:auto 1fr auto;
     grid-template-columns: 100%;
     grid-template-areas:
       "header  header"
